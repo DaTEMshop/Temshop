@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pazzwurdz!</title>
+	<script type="text/javascript">
+		function checkpassword() { 
+		var password=document.getElementById("passwordbox");
+		var passwordText=password.value;
+		if (passwordText =="Temnevergonnagiveyouup"){
+			return true;
+		}
+		else{
+			alert("Never gonna give you up,never gonna let you down, never gonna run around and desert you,never gonna make you cry,SAYZ GUDBYE!")
+			return false;
+		}
+	}
+	</script>
+</head>
+<body>
+	<p style="font-size:50px;">Welcome!</p>
+	<p> please enter the password to view the website.</p>
+	<p> Password: <input id="passwordbox"
+		type="password"></p>
+		<a href="Loganpage1.html" onclick="return checkpassword()">Click here for website</a>
+	</section>
+</body>
+</html>
